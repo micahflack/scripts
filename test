@@ -1,1 +1,1 @@
-text
+Invoke-CimMethod -ClassName win32_process -Name Create -Arguments @{commandline = "calc.exe"}
