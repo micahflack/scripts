@@ -1,1 +1,1 @@
-Invoke-CimMethod -ClassName win32_process -Name Create -Arguments @{commandline = "calc.exe"}
+powershell.exe Invoke-CimMethod -ClassName win32_process -Name Create -Arguments @{commandline = "calc.exe"}
